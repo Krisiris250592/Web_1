@@ -26,7 +26,7 @@ def input_error(func):
     def inner(*args, **kwargs):
         try:
             result = func(*args)
-        except Exception as e:
+        except Exception as e:d
             return e
         else:
             return result
